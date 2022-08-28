@@ -16,7 +16,6 @@ const Formulario = ({colaboradorCadastrado, timesLista}) => {
     const aoSalvar = (event) => {
         event.preventDefault();
         colaboradorCadastrado({nome, cargo, imagem, time});
-        console.log("Form foi submetido!!!!", "nome: ", nome, "cargo: ", cargo, "img: ", imagem, "time", time);
         setNome("")
         setCargo("")
         setImagem("")

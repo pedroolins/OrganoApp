@@ -6,7 +6,6 @@ import Time from './components/Time';
 function App() {
   const [colaboradores, setColaboradores] = useState([])
   const addNovoColaborador = (colaborador) =>{
-    console.log(colaborador)
     setColaboradores([...colaboradores, colaborador])
   }
   const times = [
